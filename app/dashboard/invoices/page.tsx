@@ -7,5 +7,5 @@ function page() {
     </div>
   );
 }
-
+page.displayName = 'page';
 export default page;

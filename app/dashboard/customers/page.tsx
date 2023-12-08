@@ -3,9 +3,11 @@ import React from 'react';
 function page() {
   return (
     <div>
-      <p>Customer's page</p>
+      <p>Customers page</p>
     </div>
   );
 }
+
+page.displayName = 'page';
 
 export default page;
